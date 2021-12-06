@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+/* margin/padding/borders for all elements set to zero */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #222831;
+}
+
+/* logo and headings */
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #393E46;
+}
+
+.h1-color-2 {
+    color: #00ADB5;
+}
+
+#logo {
+    margin-left: 20px;
+    float: left;
+    font-size: 250%;
+    font-weight: 700;
+}
+
+/* navigation links */
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu {
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+#menu a {
+    color: #222831;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #222831;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 20px;
+}
