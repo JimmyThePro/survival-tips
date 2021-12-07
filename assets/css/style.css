@@ -70,6 +70,7 @@ h1, h2 {
 
 #main-image {
     background: url(../images/snowy-mountain.jpg) no-repeat bottom center;
+    background-color: #EEEEEE;
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -78,6 +79,7 @@ h1, h2 {
 #hero {
     height: 600px;
     width: 100%;
+    margin-bottom: 10px;
     overflow: hidden;
     position: relative;
 }
@@ -124,7 +126,7 @@ h1, h2 {
 .row {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 10px
 }
 
 .column h2 {
@@ -141,4 +143,40 @@ h1, h2 {
     opacity: 0.3;
 }
 
+/* contact section */
+
+#contact {
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(grey, black);
+    background-color: #393E46;
+}
+
+#contact h2 {
+    color: #EEEEEE;
+    text-align: center;
+    text-transform: none;
+    padding-bottom: 20px;
+}
+
+#contact h3 {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    color: #EEEEEE;
+}
+
+td {
+    border: 1px solid #00ADB5;
+}
 
