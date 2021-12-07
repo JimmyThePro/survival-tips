@@ -180,3 +180,24 @@ td {
     border: 1px solid #00ADB5;
 }
 
+/* footer and social media icons */
+
+footer {
+    height: 75px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 1%;
+    color: #00ADB5;
+}
+
