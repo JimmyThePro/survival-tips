@@ -142,27 +142,33 @@ h1, h2 {
 
 /* contact section */
 
+#contact-image {
+    background: url(../images/contact-us.jpg) no-repeat center center;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
 #contact {
-    margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(grey, black);
-    background-color: #393E46;
 }
 
 #contact h2 {
-    color: #EEEEEE;
+    color: #222831;
     text-align: center;
     text-transform: none;
-    text-shadow: 2px 2px 2px #222831;
+    text-shadow: 1px 1px 1px #222831;
     padding-bottom: 20px;
+    font-size: 150%;
 }
 
 #contact h3 {
-    color: #EEEEEE;
+    color: #222831;
     text-align: center;
+    font-size: 150%;
 }
 
 .table {
@@ -171,17 +177,19 @@ h1, h2 {
     width: 25%;
     text-align: center;
     padding-top: 20px;
-    color: #EEEEEE;
+    color: #222831;
 }
 
 td {
-    border: 1px solid #00ADB5;
+    border: 2px solid #00ADB5;
 }
 
 /* footer and social media icons */
 
 footer {
     height: 75px;
+    background-color: #393E46;
+    margin-top: 20px;
 }
 
 .social-media {
@@ -196,12 +204,14 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 5px;
-    color: #00ADB5;
+    color: #ffffff;
 }
 
 .copyright {
+    background-color: #393E46;
     text-align: center;
-    padding-bottom: 10px;
+    color: #EEEEEE;
+    padding-bottom: 20px;
 }
 
 /* media queries */
@@ -355,7 +365,7 @@ footer {
     }
 }
 
-/* emergency situation pages */
+/* emergency situation page */
 
 .situations {
     width: 100%;
