@@ -409,12 +409,13 @@ footer {
     display: inline-block;
     margin-top: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .sec2 {
     background-color: #dfdfdf;
     margin-top: 60px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -424,6 +425,12 @@ footer {
     text-align: center;
     margin: 0 auto;
     width: 75%;
+}
+
+#hunting-text h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .img2 {
