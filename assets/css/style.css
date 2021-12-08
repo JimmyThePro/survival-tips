@@ -154,7 +154,7 @@ h1, h2 {
     opacity: 0.8;
 }
 
-/* contact section */
+/* contact page section */
 
 #contact-image {
     background: url(../images/contact-us.jpg) no-repeat center center;
@@ -174,9 +174,9 @@ h1, h2 {
     color: #222831;
     text-align: center;
     text-transform: none;
-    text-shadow: 1px 1px 1px #222831;
+    text-shadow: 1px 1px 1px #00ADB5;
     padding-bottom: 20px;
-    font-size: 150%;
+    font-size: 180%;
 }
 
 #contact h3 {
@@ -203,7 +203,7 @@ td {
 footer {
     height: 75px;
     background-color: #393E46;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .social-media {
@@ -246,6 +246,17 @@ footer {
         padding: 10px;
         margin-right: 200px;
         position: absolute;
+    }
+
+    .text {
+        font-size: 100%;
+    }
+
+    .img {
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
 
     .column {
@@ -348,6 +359,16 @@ footer {
         font-size: 100%;
     }
 
+    #pre-text {
+        width: 100%;
+        height: 420px;
+        margin-top: 40px;
+    }
+
+    .text {
+        font-size: 95%;
+    }
+
     .column {
         width: 100%;
         height: 125px;
@@ -379,9 +400,38 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+/* for screen sizes from 580px wide and down */
+@media screen and (max-width: 580px) {
+    #pre-text {
+        width: 100%;
+        height: 460px;
+        margin-top: 40px;
+    }
 
+    .text {
+        font-size: 90%;
+    }
+}
 
+/* for screen sizes from 450px wide and down */
+@media screen and (max-width: 450px) {
+    #main-image-text {
+        font-size: 100%;
+        bottom: 140px;
+        margin-right: 40px;
+        width: 75%;
+        height: 140px;
+    }
+
+    #pre-text {
+        width: 100%;
+        height: 580px;
+        margin-top: 40px;
+    }
+
+    #menu {
+        font-size: 90%;
+    }
 }
 
 /* emergency situation page */
@@ -434,8 +484,10 @@ footer {
 }
 
 .img2 {
-    width: 40%;
+    width: 50%;
     height: auto;
+    box-shadow: 2px 2px 2px #222831;
+    border-radius: 25px;
 }
 
 #button {
@@ -454,6 +506,7 @@ footer {
     border: none;
     display: inline-block;
     text-decoration: none;
+    text-transform: capitalize;
     color: #EEEEEE;
     font-size: 24px;
     border-radius: 25px;
