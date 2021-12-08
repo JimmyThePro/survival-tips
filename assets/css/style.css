@@ -365,6 +365,11 @@ footer {
     }
 }
 
+@media screen and (max-width: 500px) {
+
+
+}
+
 /* emergency situation page */
 
 .situations {
@@ -372,3 +377,39 @@ footer {
     height: auto;
     display: inline-block;
 }
+
+#help {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#help > h2 {
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+#button {
+    background-color: orange;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#button:hover {
+    background-color: rgb(247, 190, 85);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
