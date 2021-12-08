@@ -247,6 +247,12 @@ footer {
     .table {
         width: 40%;
     }
+
+    #row2 {
+        width: 100%;
+        height: auto;
+        margin-left: 25%;
+    }
 }
 
 /* for screen sizes from 950px wide and down */
@@ -351,11 +357,7 @@ footer {
 
 /* emergency situation pages */
 
-#main-image-text2 {
-    display: none;
-}
-
-#situations2 {
+.situations {
     width: 100%;
     height: auto;
     display: inline-block;
