@@ -107,6 +107,20 @@ h1, h2 {
     position: absolute;
 }
 
+#pre-text {
+    width: 100%;
+    height: 340px;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
 /* columns and rows */
 
 .column {
@@ -375,7 +389,6 @@ footer {
 .situations {
     width: 100%;
     height: auto;
-    display: inline-block;
 }
 
 #help {
@@ -386,8 +399,36 @@ footer {
 }
 
 #help > h2 {
-    text-transform: capitalize;
+    text-transform: none;
     margin-bottom: 40px;
+}
+
+.sec1 {
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec2 {
+    background-color: #dfdfdf;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#hunting-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.img2 {
+    width: 40%;
+    height: auto;
 }
 
 #button {
@@ -399,6 +440,18 @@ footer {
     font-size: 24px;
     border-radius: 25px;
     padding: 20px;
+}
+
+#button2 {
+    background-color: #00ADB5;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 #button:hover {
