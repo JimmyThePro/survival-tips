@@ -501,10 +501,6 @@ label {
     .signup {
         width: 40%;
     }
-
-    #survival-image {
-        height: 500px;
-    }
 }
 
 /* for screen sizes from 800px wide and down */
@@ -580,10 +576,6 @@ label {
     .signup {
         width: 45%;
     }
-
-    #survival-image {
-        height: 450px;
-    }
 }
 
 /* for screen sizes from 580px wide and down */
@@ -612,10 +604,6 @@ label {
 
     #submit-btn {
         font-size: 150%;
-    }
-
-    #survival-image {
-        height: 400px;
     }
 }
 
@@ -650,9 +638,5 @@ label {
 
     .signup {
         width: 70%;
-    }
-
-    #survival-image {
-        height: 300px;
     }
 }
