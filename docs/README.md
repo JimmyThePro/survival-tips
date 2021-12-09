@@ -1,5 +1,7 @@
 # **Survival Tips**
-Survival Tips is a site for survival enthusiasts. And also for people that will get on a journey/trip anywhere in the world. This site will give the right information on how to PREPARE for an Emergency Situation (hunting emergency, ski trip emergency, fishing emergency, car emergency, camping emergency, hiking emergency), and also how to DEAL with them!
+Survival Tips is a site for survival enthusiasts. And also for people that will get on a journey/trip anywhere in the world. 
+This site will give the right information on how to PREPARE for an Emergency Situation (hunting emergency, ski trip emergency, fishing emergency, 
+car emergency, camping emergency, hiking emergency), and also how to DEAL with them!
 
 ![This is an image](../assets/images/survival-tips-screen.jpg)
 
@@ -72,7 +74,7 @@ Survival Tips is a site for survival enthusiasts. And also for people that will 
     - HTML - No errors when checked with "W3C validator".
     - CSS - No errors when checked with "Jigsaw validator".
     - This site is responsive. Different browsers work with this site (firefox, chrome, safari, edge). All link and buttons work, "form" also works.
-    - Lighthouse report tested.
+    - Lighthouse site tested, with good score.
 
 ## Bugs
 
@@ -110,6 +112,7 @@ Survival Tips is a site for survival enthusiasts. And also for people that will 
     - Information text on this site is bought from https://www.fiverr.com/
     - Fonts imported from https://fonts.google.com/
     - Flexbox code layout learned from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - Used anchor links, learned from https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html
     - Color palette picked from https://colorhunt.co/
 
 * **Media**
