@@ -154,12 +154,133 @@ h1, h2 {
     opacity: 0.8;
 }
 
+/* footer and social media icons with copyright text */
+
+footer {
+    height: 75px;
+    background-color: #393E46;
+    margin-top: 40px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.copyright {
+    background-color: #393E46;
+    text-align: center;
+    color: #EEEEEE;
+    padding-bottom: 20px;
+}
+
+/* emergency situations page */
+
+.situations {
+    width: 100%;
+    height: auto;
+}
+
+#help {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#help > h2 {
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+.sec1 {
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sec2 {
+    background-color: #dfdfdf;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#hunting-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#hunting-text h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.img2 {
+    width: 50%;
+    height: auto;
+    box-shadow: 2px 2px 2px #222831;
+    border-radius: 25px;
+}
+
+#button {
+    background-color: orange;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#button2 {
+    background-color: #00ADB5;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#button:hover {
+    background-color: rgb(247, 190, 85);
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 24px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
 /* contact page section */
 
 #contact-image {
     background: url(../images/contact-us.jpg) no-repeat center center;
     width: 100%;
-    height: 300px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -192,40 +313,11 @@ h1, h2 {
     text-align: center;
     padding-top: 20px;
     color: #222831;
+    font-size: 120%;
 }
 
 td {
     border: 2px solid #00ADB5;
-}
-
-/* footer and social media icons */
-
-footer {
-    height: 75px;
-    background-color: #393E46;
-    margin-top: 40px;
-}
-
-.social-media {
-    text-align: center;
-}
-
-.social-media > li {
-    display: inline;
-}
-
-.social-media i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5px;
-    color: #ffffff;
-}
-
-.copyright {
-    background-color: #393E46;
-    text-align: center;
-    color: #EEEEEE;
-    padding-bottom: 20px;
 }
 
 /* media queries */
@@ -433,96 +525,3 @@ footer {
         font-size: 90%;
     }
 }
-
-/* emergency situation page */
-
-.situations {
-    width: 100%;
-    height: auto;
-}
-
-#help {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-#help > h2 {
-    text-transform: none;
-    margin-bottom: 40px;
-}
-
-.sec1 {
-    width: 100%;
-    height: 400px;
-    display: inline-block;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.sec2 {
-    background-color: #dfdfdf;
-    margin-top: 60px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#hunting-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
-    text-align: center;
-    margin: 0 auto;
-    width: 75%;
-}
-
-#hunting-text h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: underline;
-}
-
-.img2 {
-    width: 50%;
-    height: auto;
-    box-shadow: 2px 2px 2px #222831;
-    border-radius: 25px;
-}
-
-#button {
-    background-color: orange;
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    color: #EEEEEE;
-    font-size: 24px;
-    border-radius: 25px;
-    padding: 20px;
-}
-
-#button2 {
-    background-color: #00ADB5;
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #EEEEEE;
-    font-size: 24px;
-    border-radius: 25px;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#button:hover {
-    background-color: rgb(247, 190, 85);
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    color: #EEEEEE;
-    font-size: 24px;
-    border-radius: 25px;
-    padding: 20px;
-}
-
-
