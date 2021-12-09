@@ -71,6 +71,51 @@ Survival Tips is a site for survival enthusiasts. And also for people that will 
 
     - HTML - No errors when checked with "W3C validator".
     - CSS - No errors when checked with "Jigsaw validator".
+    - This site is responsive. Different browsers work with this site (firefox, chrome, safari, edge). All link and buttons work, "form" also works.
+    - Lighthouse report tested.
+
+## Bugs
+
+    - No bugs detected.
+
+## Unfixed bugs
+
+    - No unfixed bugs.
+
+## Technologies
+
+* **Languages used**
+
+    - HTML
+    - CSS
+
+## Programs
+
+    - Gitpod, used for code writing.
+    - Githud, store data.
+    - Git, version control.
+
+## Deployment
+
+* **Was deployed to Github pages. The steps are:**
+
+    - Github repository --> settings tab --> source section drop-down menu --> main
+    - When selected "main", page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - The site link: https://jimmythepro.github.io/survival-tips//index.html
+
+## Credits
+
+* **Content**
+
+    - Information text on this site is bought from https://www.fiverr.com/
+    - Fonts imported from https://fonts.google.com/
+    - Flexbox code layout learned from https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    - Color palette picked from https://colorhunt.co/
+
+* **Media**
+
+    - All the images taken from https://www.pexels.com/
+    - The icons is taken from https://fontawesome.com/
 
 
 
