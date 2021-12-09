@@ -43,5 +43,33 @@ Survival Tips is a site for survival enthusiasts. And also for people that will 
 
 * **Contact page**
 
-    - This page got a business location image at the top, and a text under the image with the question: "Got any questions or just wanna chat?".
+    - This page got a "business location image" at the top, and a text under the image with the question: "Got any questions or just wanna chat?".
+    - User can also find a telephone number, email address and a business street address. Opening times is shown and made by a "table" code.
+
+![This is an image](../assets/images/contact-page-info.jpg)
+
+* **Form page**
+
+    - This page is "hidden". The user need to click the way through Home page --> Emergency Situations --> and then click on a button of their choice.
+    - Form page got a image at the top of the page, and a form below the image. This form the user need to input their first name, last name, and their email address. the submit button will send the form. The user will receive great options of survival gears, sent to their email address.
+
+![This is an image](../assets/images/form-page.jpg)
+
+## UX
+
+* **User story**
+
+    - A survival enthusiast will find useful information on this site about emergency situations, that can happen to anyone and anywhere. This information is perfect so he/she will be prepared for their planned trip/journey. And also get useful information how to deal with them if they occure.
+
+* **Site goal**
+
+    - The goal of the site is to capture "strong leads" in the survival nich. With strong leads I mean that they need to commit through the page with 2 link-clicks, before they can fill in the "form", to get tips and ideas of emergency survival gear to buy before their planned trip.
+
+## Testing
+
+* **Validator testing**
+
     - 
+
+
+
