@@ -103,7 +103,8 @@ h1, h2 {
     padding: 20px 20px;
     background-color: rgba(255, 255, 255, 0.8);
     bottom: 200px;
-    right: 420px;
+    right: 0;
+    margin-right: 31%;
     position: absolute;
 }
 
@@ -219,7 +220,7 @@ footer {
     padding-bottom: 40px;
 }
 
-#hunting-text {
+.emergency-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     text-align: center;
@@ -227,7 +228,7 @@ footer {
     width: 75%;
 }
 
-#hunting-text h2 {
+.emergency-text h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: underline;
@@ -240,7 +241,7 @@ footer {
     border-radius: 25px;
 }
 
-#button {
+.button {
     background-color: orange;
     border: none;
     display: inline-block;
@@ -249,30 +250,12 @@ footer {
     font-size: 24px;
     border-radius: 25px;
     padding: 20px;
-}
-
-#button2 {
-    background-color: #00ADB5;
-    border: none;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #EEEEEE;
-    font-size: 24px;
-    border-radius: 25px;
-    padding: 20px;
     margin-top: 20px;
 }
 
-#button:hover {
+.button:hover {
     background-color: rgb(247, 190, 85);
-    border: none;
-    display: inline-block;
-    text-decoration: none;
     color: #EEEEEE;
-    font-size: 24px;
-    border-radius: 25px;
-    padding: 20px;
 }
 
 /* contact page section */
@@ -318,6 +301,84 @@ footer {
 
 td {
     border: 2px solid #00ADB5;
+}
+
+/* form page section */
+
+#survival-image {
+    background: url(../images/survival-form.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.form {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.signup {
+    width: 25%;
+    background-color: #ffffff;
+    border: 1px solid #222831;
+    border-radius: 15px;
+    padding: 10px 20px 0 15px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px #222831;
+}
+
+#text-area {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#text-area > h2 {
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+#text-area > h3 {
+    padding-top: 20px;
+}
+
+label {
+    font-size: 100%;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    padding-bottom: 1%;
+}
+
+.text-field {
+    color: #222831;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #222831;
+    border-radius: 5px;
+    display: block;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+#submit-btn {
+    color: #ffffff;
+    background-color: orange;
+    display: inline;
+    font-size: 200%;
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid transparent;
+    margin: 5% 0 7% 0;
+}
+
+#submit-btn:hover {
+    background-color: rgb(247, 190, 85);
 }
 
 /* media queries */
@@ -380,6 +441,10 @@ td {
         height: auto;
         margin-left: 25%;
     }
+
+    .signup {
+        width: 35%;
+    }
 }
 
 /* for screen sizes from 950px wide and down */
@@ -427,6 +492,14 @@ td {
         height: 300px;
         background-repeat: no-repeat;
         background-position: bottom;
+    }
+
+    .signup {
+        width: 40%;
+    }
+
+    #survival-image {
+        height: 500px;
     }
 }
 
@@ -490,6 +563,23 @@ td {
     .copyright {
         font-size: 75%;
     }
+
+    .button {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .emergency-text {
+        font-size: 95%;
+    }
+
+    .signup {
+        width: 45%;
+    }
+
+    #survival-image {
+        height: 450px;
+    }
 }
 
 /* for screen sizes from 580px wide and down */
@@ -503,16 +593,36 @@ td {
     .text {
         font-size: 90%;
     }
+    .button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .emergency-text {
+        font-size: 90%;
+    }
+
+    .signup {
+        width: 60%;
+    }
+
+    #submit-btn {
+        font-size: 150%;
+    }
+
+    #survival-image {
+        height: 400px;
+    }
 }
 
 /* for screen sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
     #main-image-text {
-        font-size: 100%;
-        bottom: 140px;
+        font-size: 90%;
+        bottom: 120px;
         margin-right: 40px;
         width: 75%;
-        height: 140px;
+        height: 130px;
     }
 
     #pre-text {
@@ -523,5 +633,22 @@ td {
 
     #menu {
         font-size: 90%;
+    }
+
+    #contact h2 {
+        font-size: 140%;
+    }
+
+    .table {
+        font-size: 100%;
+        width: 70%
+    }
+
+    .signup {
+        width: 70%;
+    }
+
+    #survival-image {
+        height: 300px;
     }
 }
