@@ -263,7 +263,7 @@ footer {
 #contact-image {
     background: url(../images/contact-us.jpg) no-repeat center center;
     width: 100%;
-    height: 600px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -299,6 +299,10 @@ footer {
     font-size: 120%;
 }
 
+#contact-text {
+    margin-top: 20px;
+}
+
 td {
     border: 2px solid #00ADB5;
 }
@@ -308,7 +312,7 @@ td {
 #survival-image {
     background: url(../images/survival-form.jpg) no-repeat center center;
     width: 100%;
-    height: 600px;
+    height: 300px;
     overflow: hidden;
 }
 
@@ -366,7 +370,7 @@ label {
     margin-bottom: 2%;
 }
 
-#submit-btn {
+#submit-button {
     color: #ffffff;
     background-color: orange;
     display: inline;
@@ -377,7 +381,7 @@ label {
     margin: 5% 0 7% 0;
 }
 
-#submit-btn:hover {
+#submit-button:hover {
     background-color: rgb(247, 190, 85);
 }
 
