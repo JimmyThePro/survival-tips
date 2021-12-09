@@ -69,7 +69,8 @@ Survival Tips is a site for survival enthusiasts. And also for people that will 
 
 * **Validator testing**
 
-    - 
+    - HTML - No errors when checked with "W3C validator".
+    - CSS - No errors when checked with "Jigsaw validator".
 
 
 
