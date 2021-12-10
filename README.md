@@ -2,6 +2,7 @@
 Survival Tips is a site for survival enthusiasts. And also for people that will get on a journey/trip anywhere in the world. 
 This site will give the right information on how to PREPARE for an Emergency Situation (hunting emergency, ski trip emergency, fishing emergency, 
 car emergency, camping emergency, hiking emergency), and also how to DEAL with them!
+Link to site: https://jimmythepro.github.io/survival-tips/
 
 ![survival tips devices](../assets/images/survival-tips-screen.jpg)
 
@@ -83,8 +84,8 @@ A survival enthusiast will find useful information on this site about emergency 
 
 * **Validator testing**
 
-    - HTML - No errors when checked with "W3C validator".
-    - CSS - No errors when checked with "Jigsaw validator".
+    - HTML - No errors when checked with "W3C validator". https://validator.w3.org/
+    - CSS - No errors when checked with "Jigsaw validator". https://jigsaw.w3.org/css-validator/
     - This site is responsive. Different browsers work with this site (firefox, chrome, safari, edge). All link and buttons work, "form" also works.
     - Lighthouse site tested, with good score.
 
@@ -138,7 +139,7 @@ A survival enthusiast will find useful information on this site about emergency 
     - Background color: #EEEEEE
     - Font color: #222831
     - Button color: 'Orange'
-    - Logo and navigation link color: #00ADB5
+    - Logo and navigation link color: #00ADB5 and #222831
     - Fonts used: 'Open Sans' and 'Montserrat'.
 
 
