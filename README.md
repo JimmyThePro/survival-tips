@@ -4,7 +4,7 @@ This site will give the right information on how to PREPARE for an Emergency Sit
 car emergency, camping emergency, hiking emergency), and also how to DEAL with them!
 Link to site: https://jimmythepro.github.io/survival-tips/
 
-![survival tips devices](../assets/images/survival-tips-screen.jpg)
+![survival tips devices](assets/images/survival-tips-screen.jpg)
 
 ## Features
 
@@ -14,14 +14,14 @@ Link to site: https://jimmythepro.github.io/survival-tips/
     - This full responsive navigation bar allow all users to easy navigate to all pages on this site, without the need of the "back" button.
     - This bar also have a hover effect that change color with mousehover, and an underline is shown on the link that currently is active.
 
-![navigation bar](../assets/images/navigation-bar.jpg)
+![navigation bar](assets/images/navigation-bar.jpg)
 
 * **Main image**
 
     - The main image is a of a big snowy mountain (associates to nature, survival, outdoor activities).
     - And this image also got an eye catching overlay text, that tell the user he/she is on the perfect site he/she was looking for.
 
-![main image homepage](../assets/images/main-image.jpg)
+![main image homepage](assets/images/main-image.jpg)
 
 * **Emergency Situations Section**
 
@@ -34,7 +34,7 @@ Link to site: https://jimmythepro.github.io/survival-tips/
     - The footer section got 4 social media pictures with links that opens up in a new tab (facebook, twitter, instagram, youtube).
     - This section also have a copyright text (under the social media pictures).
 
-![footer image](../assets/images/footer-image.jpg)
+![footer image](assets/images/footer-image.jpg)
 
 * **Emergency Situations page**
 
@@ -42,21 +42,21 @@ Link to site: https://jimmythepro.github.io/survival-tips/
     - Each emergency situation got a bigger image shown, and the text is shown below the image.
     - And after each text section there is a button with the text "I wanna be prepared, help me out!". When a user clicks this button, they will land on a form page.
 
-![emergency situations page](../assets/images/emergency-page-screen.jpg)
+![emergency situations page](assets/images/emergency-page-screen.jpg)
 
 * **Contact page**
 
     - This page got a "business location image" at the top, and a text under the image with the question: "Got any questions or just wanna chat?".
     - User can also find a telephone number, email address and a business street address. Opening times is shown and made by a "table" code.
 
-![contact page](../assets/images/contact-page-info.jpg)
+![contact page](assets/images/contact-page-info.jpg)
 
 * **Form page**
 
     - This page is "hidden". The user need to click the way through Home page --> Emergency Situations --> and then click on a button of their choice.
     - Form page got a image at the top of the page, and a form below the image. This form the user need to input their first name, last name, and their email address. the submit button will send the form. The user will receive great options of survival gears, sent to their email address.
 
-![form page](../assets/images/form-page.jpg)
+![form page](assets/images/form-page.jpg)
 
 ## UX
 
