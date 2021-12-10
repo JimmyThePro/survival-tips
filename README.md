@@ -59,13 +59,25 @@ car emergency, camping emergency, hiking emergency), and also how to DEAL with t
 
 ## UX
 
-* **User story**
+A survival enthusiast will find useful information on this site about emergency situations, that can happen to anyone and anywhere. This information is perfect so he/she will be prepared for their planned trip/journey. And also get useful information how to deal with them if they occure.
 
-    - A survival enthusiast will find useful information on this site about emergency situations, that can happen to anyone and anywhere. This information is perfect so he/she will be prepared for their planned trip/journey. And also get useful information how to deal with them if they occure.
+* **User stories**
+
+    - NEW USER: I would like more information to be prepared if an emergency situation will occur. And I want information on what gear to use so I can deal with them if they happen.
+    - RETURNING USER: User can connect with site owner if any questions/problems. User can also read about a different emergency situation if they are planning on another trip to a new destination. This site will always update to get new content, and the user will get a message in their email when update is live.
 
 * **Site goal**
 
     - The goal of the site is to capture "strong leads" in the survival nich. With strong leads I mean that they need to commit through the page with 2 link-clicks, before they can fill in the "form", to get tips and ideas of emergency survival gear to buy before their planned trip.
+
+* **Business owner**
+
+    - I want to have as much information as possible to my users, and provide them with correct gear/equipment, so they are prepared for the worse. This can save alot of lives.
+    - I also want to build a good relationship with my users, so I have thier trust to visit me again for more information etc.
+
+* **Wireframes**
+
+    - I used this page to get an "idea" how I wanted this site to look like - https://avada.theme-fusion.com/photography/
 
 ## Testing
 
@@ -119,6 +131,17 @@ car emergency, camping emergency, hiking emergency), and also how to DEAL with t
 
     - All the images taken from https://www.pexels.com/
     - The icons is taken from https://fontawesome.com/
+    - Used GIMP for scaling the images.
+
+* **Colors and fonts**
+
+    - Background color: #EEEEEE
+    - Font color: #222831
+    - Button color: 'Orange'
+    - Logo and navigation link color: #00ADB5
+    - Fonts used: 'Open Sans' and 'Montserrat'.
+
+
 
 
 
